@@ -162,3 +162,13 @@ h2.text {
   line-height: 30px;
   letter-spacing: 5;
 }
+
+.logo-tex-footer {
+  color: #ffffff;
+  font-family: Raleway;
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 1.2;
+}

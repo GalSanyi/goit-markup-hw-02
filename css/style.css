@@ -9,8 +9,8 @@ body {
 }
 .logo {
   color: var(--accent-color);
-}
-.nav-menu > ul {
-  color: var(--primery-text-color);
   text-decoration: none;
+}
+nav > a {
+  color: tomato;
 }

@@ -7,10 +7,129 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
 .logo {
   color: var(--accent-color);
-  text-decoration: none;
+  font-family: Raleway;
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 1.2;
 }
-nav > a {
-  color: tomato;
+
+.logo-text {
+  text-decoration: none;
+  color: #212121;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 1.2;
+}
+.nav-list a {
+  color: var(--primery-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 2.2;
+}
+.nav-list a:hover {
+  color: var(--accent-color);
+}
+
+.list-text a {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 2.2;
+}
+.list-text a:hover {
+  color: var(--accent-color);
+}
+.title-box {
+  color: #ffffff;
+  background: #2f303a;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 2.6;
+  text-transform: uppercase;
+}
+.btn-box {
+  color: #ffffff;
+  background: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 5;
+  text-align: center;
+}
+
+.section-box h3 {
+  color: var(--primery-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 2.2;
+  text-transform: uppercase;
+}
+.section-box p {
+  color: var(--title-text-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3;
+}
+h2.text {
+  color: var(--primery-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 1.5;
+}
+
+.subtitle-text h3 {
+  color: var(--primery-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 3;
+}
+.subtitle-text p {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 3;
+}
+.footer {
+  background: #2f303a;
+}
+.adress p {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3;
+}
+.list-adress a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3;
 }

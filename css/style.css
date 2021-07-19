@@ -1,0 +1,16 @@
+:root {
+  --primery-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  color: var(--accent-color);
+}
+.nav-menu > ul {
+  color: var(--primery-text-color);
+  text-decoration: none;
+}

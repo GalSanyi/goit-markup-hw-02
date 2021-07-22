@@ -2,6 +2,7 @@
   --primery-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #2196f3;
+  --white-color: #ffffff;
 }
 
 body {
@@ -17,7 +18,7 @@ li {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  letter-spacing: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .logo-text {
@@ -27,7 +28,7 @@ li {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  letter-spacing: 1.2;
+  letter-spacing: 0.03em;
 }
 .nav-list a {
   color: var(--primery-text-color);
@@ -35,7 +36,7 @@ li {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 2.2;
+  letter-spacing: 0.02em;
 }
 .nav-list a:hover,
 .nav-list a:focus {
@@ -48,29 +49,33 @@ li {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 2.2;
+  letter-spacing: 0.02em;
 }
 .list-text a:hover {
   color: var(--accent-color);
 }
-.title-box {
-  color: #ffffff;
+
+.container-box {
   background: #2f303a;
+  text-align: center;
+}
+.title-box {
+  color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  text-align: center;
-  letter-spacing: 2.6;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .btn-box {
-  color: #ffffff;
+  color: var(--white-color);
   background: #2196f3;
   font-weight: 700;
   font-size: 16px;
+  font-family: inherit;
   line-height: 30px;
   text-align: center;
-  letter-spacing: 5;
+  letter-spacing: 0.06em;
   text-align: center;
 }
 
@@ -79,7 +84,7 @@ li {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 2.2;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .section-box p {
@@ -87,7 +92,7 @@ li {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 3;
+  letter-spacing: 0.03em;
 }
 h2.text {
   color: var(--primery-text-color);
@@ -96,7 +101,7 @@ h2.text {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  letter-spacing: 1.5;
+  letter-spacing: 0.03em;
 }
 
 .subtitle-text h3 {
@@ -104,7 +109,7 @@ h2.text {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  letter-spacing: 3;
+  letter-spacing: 0.03em;
 }
 .subtitle-text p {
   color: var(--title-text-color);
@@ -112,18 +117,18 @@ h2.text {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  letter-spacing: 3;
+  letter-spacing: 0.03em;
 }
 .footer {
   background: #2f303a;
 }
 .adress p {
-  color: #ffffff;
+  color: var(--white-color);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 3;
+  letter-spacing: 0.03em;
 }
 .list-adress a {
   color: rgba(255, 255, 255, 0.6);
@@ -132,7 +137,7 @@ h2.text {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 3;
+  letter-spacing: 0.03em;
 }
 
 /* PORTFOLIO DECORATION */
@@ -145,34 +150,36 @@ h2.text {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  letter-spacing: 4.2;
+  letter-spacing: 0.03em;
 }
 .desc-list button:hover {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
-.section-pic-list h2 {
-  font-weight: 700d;
+.section-pic-list h3 {
+  font-weight: 700;
   font-size: 18px;
   line-height: 36px;
-  letter-spacing: 6.5;
+  letter-spacing: 0.06em;
+  color: var(--primery-text-color);
 }
 .section-pic-list p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
-  letter-spacing: 5;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 
 .logo-tex-footer {
-  color: #ffffff;
+  color: var(--white-color);
   font-family: Raleway;
   text-decoration: none;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  letter-spacing: 1.2;
+  letter-spacing: 0.03em;
 }
-.list-menu.link-curent {
+#link-curent {
   color: var(--accent-color);
 }

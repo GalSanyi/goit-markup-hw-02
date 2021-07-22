@@ -37,7 +37,8 @@ li {
   line-height: 16px;
   letter-spacing: 2.2;
 }
-.nav-list a:hover {
+.nav-list a:hover,
+.nav-list a:focus {
   color: var(--accent-color);
 }
 

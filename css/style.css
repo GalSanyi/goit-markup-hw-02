@@ -173,3 +173,6 @@ h2.text {
   line-height: 31px;
   letter-spacing: 1.2;
 }
+.list-menu.link-curent {
+  color: var(--accent-color);
+}
